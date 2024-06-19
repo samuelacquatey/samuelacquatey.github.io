@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #070707e7;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: mandatory;
+    overflow-y: scroll;
+}
+
+.container .section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow: visible;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+}
+
+.page1stuff{
+    display: flex;
+}
+
+#oop{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    transform: rotate(10deg);
+    box-shadow: 15px 5px 35px rgba(3, 3, 3, 0.263);
+}
+
+#title{
+    font-size: 290%;
+}
+
+#subtitle{
+    font-size: 230%;
+}
+
+#bio{
+    font-size: larger;
+    font-weight: 570;
+    text-align: center;
+}
+#menuholder{
+    width: 100vw;
+    border: 5px solid black;
+    text-align: right;
+    
+}
+#mainmenu li a{
+    text-decoration: none;
+    color: black;
+    font-family: rage italic;
+    font-size: 150%;
+    transition: all .5s ease;
+    margin-left: 5px;
+}
+
+#mainmenu li a:hover{
+    font-size: 170%;
+    margin-top: 2px;
+    color: rgb(3, 5, 19);
+    border-bottom: solid rgb(3, 5, 19);
+    border-radius: 3px;
+ }
+
+ #mainmenu li{
+    display: inline-block;
+    
+} 

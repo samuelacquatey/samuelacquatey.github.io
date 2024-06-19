@@ -1,0 +1,593 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #070707e7;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: mandatory;
+    overflow-y: scroll;
+}
+
+.container .section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+}
+
+#oop{
+    height: 50%;
+    width: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 29%;
+    left: 10%;
+    transform: rotate(10deg);
+    box-shadow: 15px 5px 35px rgba(3, 3, 3, 0.263);
+}
+#title{
+    font-size: 290%;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+#subtitle{
+    font-size: 230%;
+    position: absolute;
+    top: 47%;
+    right: 15%;
+}
+#bio{
+    font-size: larger;
+    font-weight: 570;
+    position: absolute;
+    top: 65%;
+    right: 6%;
+    text-align: center;
+}
+    
+#mainmenu li{
+    display: inline-block;
+    margin: 2%;
+}
+
+#mainmenu li a{
+    text-decoration: none;
+    color: black;
+    font-family: rage italic;
+    font-size: 150%;
+    transition: all .5s ease;
+}
+
+#mainmenu li a:hover{
+   font-size: 170%;
+   margin-top: 2px;
+   color: rgb(3, 5, 19);
+   border-bottom: solid rgb(3, 5, 19);
+}
+
+#mainmenu li .active{
+    font-size: 170%;
+    margin-top: 2px;
+    color: rgb(63, 60, 66);
+    border-bottom: solid rgb(47, 47, 47);
+}
+
+#menuholder{
+    transition: background-color 0.5s;
+    position: fixed;
+    top: -20px;
+    right: -45%;
+    padding-left: 500px;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+}
+
+.dividers{
+    color:  rgb(7, 7, 7);
+    width: 1005px;
+    position: absolute;
+}
+#d1{
+    top:95%;
+}
+
+#abouttitle{
+   font-family: Berlin Sans FB Demi;
+   font-size: 270%;
+   margin-left: 4%;
+   margin-top: 10%;
+   background-color: #fff;
+   padding: 0px;
+   width: 500px;
+   color: rgb(1, 32, 103);
+}
+
+#abouttext{
+    text-align: left;
+    font-size: 160%;
+    line-height: 35px;
+    margin-top: 60px;
+    font-family: agency fb;
+}
+
+#page2pic{
+    position: absolute;
+    right: 6%;
+    top: 118%;
+    height: 240px;
+}
+
+#shape{
+    height: 270px;
+    width: 140px;
+    border: solid 3px rgb(0, 48, 161);
+    background-color: #000;
+    position: absolute;
+    top: 114%;
+    right: 3.7%;
+    z-index: -200;
+}
+
+#bgshape1{
+    position: absolute;
+    top: 140%;
+    left: -18%;
+    border-top: solid 3px #000;
+    transform: rotate(-40deg);
+    width: 660px;
+    z-index: -1;
+}
+
+#bgshape2{
+    position: absolute;
+    top: 135%;
+    right: 0%;
+    border-top: solid 3px #000;
+    width: 1500px;
+    z-index: -1;
+}
+
+
+#p2{
+    margin: 5%;
+}
+
+#p3{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p3r{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width:100svw;
+    
+}
+
+#projecct{
+    font-size: 35pt;
+    color: #2d2d31;
+    text-align: left;
+    width: 90svw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#pr1{
+    background-image: url(calculator.png);
+    background-size: contain;
+}
+
+#pr2{
+    background-image: url(passwordgen.png);
+    mix-blend-mode: color;
+    background-size: contain;
+}
+.section #p3 .proj{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+/*.container .section:nth-child(3){
+    background: rgb(54, 55, 57) url(nptsy.png);
+    background-size:contain;
+    mix-blend-mode: color;
+}
+*/
+.logos{
+    height: 70px;
+    width: auto;
+}
+
+#connect ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#connect{
+    position: absolute;
+    top: 489%;
+    right: 3%;
+}
+
+#connect ul img{
+    border-radius: 20%;
+    mix-blend-mode: multiply;
+}
+
+.container .section:nth-child(5){
+    background-color: rgb(231, 231, 231);
+}
+
+#p5pic{
+    height: 100vh;
+    width: auto;
+}
+
+#page5text{
+    position: absolute;
+    top: 424%;
+    right: 40%;
+}
+
+#page5text h1{
+    font-family: consolas;
+}
+
+#sosh{
+    position: absolute;
+    top: 430%;
+    right: 7%;
+    height: 400px;
+    width: auto;
+    opacity: 0.3;
+    mix-blend-mode: multiply;
+}
+
+.container .section:nth-child(4){
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(231, 233, 246, 0.849);
+}
+
+#page4bg{
+    height: 370px;
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 0px 35px rgba(8, 8, 8, 0.226);   
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#complement{
+    background-color: rgb(33, 34, 41);
+    height: 290px;
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    box-shadow: 10px 15px 15px rgba(8, 8, 8, 0.186);
+}
+
+.p{
+    position: relative;
+    top: -16px;
+    left: -22px;
+}
+
+#page4bg ul li{
+    line-height: 500%;    
+}
+
+#page4bg h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.971);
+    z-index: 10;
+    text-shadow: 2px 2px 5px rgba(11, 11, 11, 0.647);
+}
+
+
+
+
+
+
+
+
+/*THIS IS THE SECTION OF THE CSS CODE DEDICATED TO MEDIA QUERIES, NO OTHER CODE GOES BELOW THIS LINE!*/
+
+@media (landscape) {
+    .container .section{
+        height: 50vh;
+        overflow-y: hidden;
+    }
+    #menuholder{
+        right: -25%;
+    }
+    #oop{
+        height: 22%;
+        top: 16%;
+        left: 7%;
+    }
+    #title{
+        font-size: 210%;
+        top: 22%;
+    }
+    #subtitle{
+        font-size: 150%;
+        top: 28%;
+        right: 17%;
+    }
+    #bio{
+        top: 32%;
+        font-size: 100%;
+        right: 20px;
+    }
+    #d1{
+        top: 50%;
+    }
+    #bgshape1{
+        top: 65%;
+        width: 490px;
+    }
+    #bgshape2{
+        top: 60%;
+    }
+    #page2pic{
+        top: 53%;
+        height: 200px;
+        right: 42px;
+    }
+    #shape{
+        top: 51.5%;
+        height: 220px;
+    }
+    #page4bg{
+        top: 160%;
+        width: 600px;
+    }
+    #p4pic{
+        width: 250px;
+        height: auto;
+    }
+    #connect{
+        top: 240%;
+    }
+    #connect ul img{
+        height: 50px;
+        width: auto;
+    }
+    #connect ul li{
+        margin: 8px;
+    }
+    #page4text{
+        top: 213%;
+        right: 20%;
+    }
+    #sosh{
+        top: 210%;
+        width: 260px;
+        height: auto;
+    }
+}
+
+
+
+
+
+@media (max-width: 400px) {
+    .container .section{
+        height: 88vh;
+        overflow-y: hidden;
+    }
+    #menuholder{
+        top: -0.2%;
+        right: -5%;
+    }
+    #mainmenu li a{
+        font-size: 114%;
+    }
+    #mainmenu li{
+        margin: 5px;
+    }
+    #oop{
+        height: 22%;
+        top: 14%;
+        left: 29%;
+        border-radius: 20%;
+    }
+    #title{
+        font-size: 170%;
+        top: 34%;
+    }
+    #subtitle{
+        font-size: 134%;
+        top: 40%;
+        right: 17%;
+    }
+    #bio{
+        top: 47%;
+        font-size: 95%;
+        right: 20px;
+    }
+    #d1{
+        top: 80%;
+    }
+    #bgshape1{
+        top: 97%;
+        width: 415px;
+        left: -21%;
+    }
+    #bgshape2{
+        top: 98%;
+    }
+    #page2pic{
+        top: 92.5%;
+        height: 130px;
+        right: 42px;
+    }
+    #shape{
+        top: 91.5%;
+        height: 140px;
+        width: 90px;
+        right: 8%;
+    }
+    #page4bg{
+        top: 280%;
+        width: 80%;
+        height: 500px;
+    }
+    #p4pic{
+        width: 190px;
+        height: auto;
+    }
+    #connect{
+        top: 425%;
+        right: 6%;
+    }
+    #connect ul img{
+        height: 2px;
+        width: auto;
+    }
+    #connect ul li{
+        margin: 8px;
+    }
+    #page4text{
+        top: 375%;
+        right: 3%;
+        font-size: 100%;
+    }
+    #sosh{
+        top: 400%;
+        width: 200px;
+        height: auto;
+    }
+    #abouttitle{
+        font-size: 30px;
+        width: 180px;
+    }
+    #abouttext{
+        font-size: 24px;
+        line-height: normal;
+    }
+}
+
+
+
+
+@media (max-width: 630px) {
+    .container .section{
+        height: 88vh;
+        overflow-y: hidden;
+    }
+    #menuholder{
+        top: -0.2%;
+        right: -5%;
+    }
+    #mainmenu li a{
+        font-size: 114%;
+    }
+    #mainmenu li{
+        margin: 5px;
+    }
+    #oop{
+        height: 22%;
+        top: 14%;
+        left: 29%;
+        border-radius: 20%;
+    }
+    #title{
+        font-size: 170%;
+        top: 34%;
+    }
+    #subtitle{
+        font-size: 134%;
+        top: 40%;
+        right: 17%;
+    }
+    #bio{
+        top: 47%;
+        font-size: 95%;
+        right: 20px;
+    }
+    #d1{
+        top: 80%;
+    }
+    #bgshape1{
+        top: 97%;
+        width: 415px;
+        left: -21%;
+    }
+    #bgshape2{
+        top: 96%;
+    }
+    #page2pic{
+        top: 92.5%;
+        height: 130px;
+        right: 42px;
+    }
+    #shape{
+        top: 91.5%;
+        height: 140px;
+        width: 90px;
+        right: 8%;
+    }
+    #page4bg{
+        top: 280%;
+        width: 80%;
+        height: 500px;
+    }
+    #p4pic{
+        width: 190px;
+        height: auto;
+    }
+    #connect{
+        top: 425%;
+        right: 6%;
+    }
+    #connect ul img{
+        height: 25px;
+        width: auto;
+    }
+    #connect ul li{
+        margin: 8px;
+    }
+    #page4text{
+        top: 375%;
+        right: 3%;
+        font-size: 10px;
+    }
+    #sosh{
+        top: 400%;
+        width: 200px;
+        height: auto;
+    }
+    #abouttitle{
+        font-size: 30px;
+        width: 180px;
+    }
+    #abouttext{
+        font-size: 24px;
+        line-height: normal;
+    }
+}
+
+
+

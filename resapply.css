@@ -1,0 +1,47 @@
+#main{
+    
+    background-color: rgb(189, 216, 239);
+    height: 100vh;
+}
+#head{
+    position: relative;
+    right: -25%;
+    text-align: center;
+    width: 500px;
+}
+#main #ug{
+    background-blend-mode: color-burn;
+}
+.in{
+    position: relative;
+    right: -38%;
+    height: 40px;
+    width: 250px;
+}
+#log{
+    position: relative;
+    right: -60%;
+    height: 40px;
+    width: 100px;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 2s ease-out;
+}
+#log:hover{
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+
+}
+#log:active{
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    
+}
+.line{
+    line-height: 30px;
+}
